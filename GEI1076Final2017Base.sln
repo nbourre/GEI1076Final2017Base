@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GEI1076Final2017BaseDLL", "GEI1076Final2017BaseDLL\GEI1076Final2017BaseDLL.csproj", "{521C65AB-AEE6-4501-9B97-1B6FBCBC89B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GEI1076Final2017BaseServeur", "GEI1076Final2017BaseServeur\GEI1076Final2017BaseServeur.csproj", "{915E5A83-72A5-4E70-AE01-57A27464D2F5}"
+	ProjectSection(ProjectDependencies) = postProject
+		{521C65AB-AEE6-4501-9B97-1B6FBCBC89B4} = {521C65AB-AEE6-4501-9B97-1B6FBCBC89B4}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GEI1076Final2017BaseClient", "GEI1076Final2017BaseClient\GEI1076Final2017BaseClient.csproj", "{1D4666DD-A105-4C09-A185-1A04E679FC4C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{521C65AB-AEE6-4501-9B97-1B6FBCBC89B4} = {521C65AB-AEE6-4501-9B97-1B6FBCBC89B4}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{521C65AB-AEE6-4501-9B97-1B6FBCBC89B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{521C65AB-AEE6-4501-9B97-1B6FBCBC89B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{521C65AB-AEE6-4501-9B97-1B6FBCBC89B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{521C65AB-AEE6-4501-9B97-1B6FBCBC89B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{915E5A83-72A5-4E70-AE01-57A27464D2F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{915E5A83-72A5-4E70-AE01-57A27464D2F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{915E5A83-72A5-4E70-AE01-57A27464D2F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{915E5A83-72A5-4E70-AE01-57A27464D2F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D4666DD-A105-4C09-A185-1A04E679FC4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D4666DD-A105-4C09-A185-1A04E679FC4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D4666DD-A105-4C09-A185-1A04E679FC4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D4666DD-A105-4C09-A185-1A04E679FC4C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
